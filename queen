@@ -3,4 +3,4 @@ git init
 git remote add origin https://github.com/SlyusarVladimir/vladimir12042023.github.io.git
 git add --all
 git commit -m 'adding my files to my repository'
-git push -u origin master
+git push -u origin main
