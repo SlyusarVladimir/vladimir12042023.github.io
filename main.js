@@ -6,12 +6,12 @@ myHTML.onclick = function() {
 	var myImage = document.querySelector('img');// замена фотографий
 	myImage.onclick = function() {
     let mySrc = myImage.getAttribute('src');
-    if(mySrc === 'images/queen.jpg') {
-      myImage.setAttribute ('src','images/queen2.jpg');
-    } else if (mySrc === 'images/queen2.jpg') {
-	myImage.setAttribute ('src','images/queen1.jpg')
+    if(mySrc === 'queen.jpg') {
+      myImage.setAttribute ('src','queen2.jpg');
+    } else if (mySrc === 'queen2.jpg') {
+	myImage.setAttribute ('src','queen1.jpg')
 	} else {
-      myImage.setAttribute ('src','images/queen.jpg');
+      myImage.setAttribute ('src','queen.jpg');
     } 
 };
 var myButton = document.querySelector('button'); 
